@@ -20,7 +20,7 @@ var increaseRankBy = (n) => {
       let start = 1
       
       for (let i = 0, l = rankedLists.length; i < l; i++) {
-        parseInt(rankedLists[i]) += n;
+        parseInt(rankedLists[i].innerHTML) += n;
 //        expect(parseInt(children[i].innerHTML)).toEqual(start + i + 3)
       }
 }
